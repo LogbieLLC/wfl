@@ -373,7 +373,7 @@ impl LintRule for TrailingWhitespaceRule {
     }
 }
 
-/// Rule for enforcing maximum line length
+/// Rule for enforcing maximum line length to improve readability
 struct LineLengthRule;
 
 impl LintRule for LineLengthRule {
